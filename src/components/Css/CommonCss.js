@@ -46,6 +46,24 @@ const CommonCss = StyleSheet.create({
         backgroundColor: '#f9f9f9',
     },
 
+    // services and UploadImage page common css
+
+    servicesButton: {
+        backgroundColor:'#FFCC29',
+        borderWidth: 1,
+        borderColor: 'black',
+        paddingVertical: 10,
+        paddingHorizontal: 20,
+        borderRadius: 5,
+        alignItems: 'center',
+        marginVertical: 10, 
+        width:'50%'
+    },
+    buttonText: {
+        fontWeight: 'bold',
+        fontSize: 16,
+    }
+
   
 })
 export default CommonCss

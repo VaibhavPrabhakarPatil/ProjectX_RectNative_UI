@@ -4,6 +4,8 @@ import Login from '../screen/authentication/signIn/Login';
 import Otp from '../screen/authentication/signIn/Otp';
 import Home from '../screen/Pages/Home';
 import Services from '../screen/Pages/Services';
+import UploadImage from '../screen/Pages/UploadImage';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +16,7 @@ export default function AppStack() {
             <Stack.Screen name="Otp" component={Otp} options={{ headerShown: false }} />
             <Stack.Screen name="Home" component={Home} options={{ headerShown: false }} />
             <Stack.Screen name="Services" component={Services} options={{ headerShown: false }} />
+            <Stack.Screen name="UploadImage" component={UploadImage} options={{ headerShown: false }} />
         </Stack.Navigator>
     );
 }
