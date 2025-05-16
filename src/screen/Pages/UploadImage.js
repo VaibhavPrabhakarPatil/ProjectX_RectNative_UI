@@ -27,7 +27,7 @@ export default function UploadImage({ navigation }) {
                 <Pressable style={[CommonCss.servicesButton, { width: '100%', backgroundColor: '#ccc' }]}>
                     <Text style={CommonCss.buttonText}>Expected Selling Price</Text>
                 </Pressable>
-                <Button variant="contained"  style={[CommonCss.button,{marginTop:20}]}>
+                <Button variant="contained"  style={[CommonCss.button,{marginTop:20}]} onPress={() => navigation.navigate('Login2')}>
                     <Text style={CommonCss.buttonText}>Submit</Text>
                 </Button>
             </View>
